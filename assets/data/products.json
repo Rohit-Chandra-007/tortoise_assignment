@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 16",
+        "brand": "Apple",
+        "image": "assets/devices/apple_iphone16.png"
+    },
+    {
+        "id": 2,
+        "name": "iPhone 16 Plus",
+        "brand": "Apple",
+        "image": "assets/devices/apple_iphone16plus.png"
+    },
+    {
+        "id": 3,
+        "name": "iPhone 16 Pro",
+        "brand": "Apple",
+        "image": "assets/devices/apple_iphone16pro.png"
+    },
+    {
+        "id": 4,
+        "name": "iPhone 17 Air",
+        "brand": "Apple",
+        "image": "assets/devices/apple_iphone17air.png"
+    },
+    {
+        "id": 5,
+        "name": "MacBook Pro",
+        "brand": "Apple",
+        "image": "assets/devices/apple_macbookpro.png"
+    },
+    {
+        "id": 6,
+        "name": "iPad Pro",
+        "brand": "Apple",
+        "image": "assets/devices/apple_ipadpro.png"
+    },
+    {
+        "id": 7,
+        "name": "Pixel 9",
+        "brand": "Google",
+        "image": "assets/devices/google_pixel9.png"
+    },
+    {
+        "id": 8,
+        "name": "Pixel 10 Pro",
+        "brand": "Google",
+        "image": "assets/devices/google_pixel10pro.png"
+    },
+    {
+        "id": 9,
+        "name": "Pixel Watch",
+        "brand": "Google",
+        "image": "assets/devices/google_pixelwatch.png"
+    },
+    {
+        "id": 10,
+        "name": "Galaxy S25",
+        "brand": "Samsung",
+        "image": "assets/devices/samsung_galaxys25.png"
+    },
+    {
+        "id": 11,
+        "name": "Galaxy Z Fold 6",
+        "brand": "Samsung",
+        "image": "assets/devices/samsung_galaxyzfold6.png"
+    },
+    {
+        "id": 12,
+        "name": "OnePlus 12",
+        "brand": "OnePlus",
+        "image": "assets/devices/oneplus_12.png"
+    },
+    {
+        "id": 13,
+        "name": "OnePlus 13",
+        "brand": "OnePlus",
+        "image": "assets/devices/oneplus_13.png"
+    }
+]
