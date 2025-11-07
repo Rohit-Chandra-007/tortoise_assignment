@@ -1,6 +1,6 @@
 # Tortoise Assignment - Device Catalog App
 
-A Flutter e-commerce application showcasing premium devices from Apple, Google, Samsung, and OnePlus. Features include brand filtering, product search, detailed product views with color/storage selection, dynamic pricing, shipping information, and an intuitive bottom sheet interface for price breakdowns.
+A Flutter e-commerce application showcasing premium devices from Apple, Google, Samsung, and OnePlus. Features include brand filtering, product search, detailed product views with color/storage selection, pricing, shipping information, and an intuitive bottom sheet interface for price breakdowns.
 
 ## Screenshots
 
