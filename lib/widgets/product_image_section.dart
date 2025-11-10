@@ -15,8 +15,8 @@ class ProductionImage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 20),
       child: Column(
         children: [
-          Image.asset(
-            widget.product.image,
+          Image.network(
+            widget.product.imageUrl,
             height: 250,
             fit: BoxFit.contain,
           ),

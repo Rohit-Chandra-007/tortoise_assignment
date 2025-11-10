@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:tortoise_assignment/service/products.dart';
 import '../widgets/search_bar_with_chip.dart';
 import '../widgets/brand_selector.dart';
 import '../widgets/product_card.dart';
@@ -20,38 +21,22 @@ class _BrandCatalogPageState extends State<BrandCatalogPage> {
   List<Product> allProducts = [];
   List<Product> filteredProducts = [];
   bool isLoading = true;
+  Products product = Products();
 
   @override
   void initState() {
     super.initState();
-    loadProducts();
+    getData();
   }
 
-  Future<void> loadProducts() async {
-    try {
-      final String response = await rootBundle.loadString(
-        'assets/data/products.json',
-      );
-      final List<dynamic> data = json.decode(response);
-      setState(() {
-        allProducts = data.map((json) => Product.fromJson(json)).toList();
-        filterProducts();
-        isLoading = false;
-      });
-    } catch (e) {
-      setState(() {
-        isLoading = false;
-      });
-    }
-  }
-
-  void filterProducts() {
+  void getData() async {
+    filteredProducts = await product.fetchProducts();
     setState(() {
-      filteredProducts = allProducts
-          .where((product) => product.brand == selected)
-          .toList();
+      isLoading = false;
     });
   }
+
+  void filterProducts() {}
 
   void onBrandSelected(String brand) {
     setState(() {
